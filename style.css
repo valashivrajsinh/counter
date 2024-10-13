@@ -1,0 +1,64 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the counter */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Counter display */
+#value {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+/* Button container styling */
+.buttoncontainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Button styling */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Specific button styles */
+.decrease {
+    background-color: #f44336; /* Red for decrease */
+}
+
+.reset {
+    background-color: #ff9800; /* Orange for reset */
+}
+
+.increase {
+    background-color: #4CAF50; /* Green for increase */
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    opacity: 0.8;
+}
